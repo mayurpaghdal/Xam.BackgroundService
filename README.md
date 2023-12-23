@@ -1,5 +1,6 @@
-# Matcha Background Service Plugin for Xamarin.Forms
+# Xam Background Service Plugin for Xamarin.Forms
 A plugin library to simplify Backgrounding in Xamarin.Forms. 
+
 This is a fork from ([MatchaBackgroundService](https://github.com/winstongubantes/MatchaBackgroundService)). Xamarin Forms version is updated to latest and also Android SDK is upgraded to support AndroidX.
  
 
