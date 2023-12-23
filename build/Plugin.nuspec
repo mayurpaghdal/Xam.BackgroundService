@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata minClientVersion="2.8.1">
-        <id>Matcha.BackgroundService</id>
+        <id>Xam.BackgroundService</id>
         <version>1.0.5465</version>
-        <title>A plugin library to simplify Backgrounding in Xamarin.Forms.</title>
-        <authors>Winston Gubantes</authors>
-        <owners>Matcha</owners>
+        <title>A plugin library to simplify Backgrounding in Xamarin.Forms. A Fork from MatchaBackgroundService</title>
+        <authors>Mayur Paghdal</authors>
+        <owners>Mayur Paghdal</owners>
         <licenseUrl>https://github.com/winstongubantes/MatchaBackgroundService/blob/master/LICENSE</licenseUrl>
-        <projectUrl>https://github.com/winstongubantes/MatchaBackgroundService</projectUrl>
+        <projectUrl>https://github.com/mayurpaghdal/Xam.BackgroundService</projectUrl>
         <iconUrl>https://github.com/winstongubantes/MatchaBackgroundService/blob/master/images/icon.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>
@@ -20,42 +20,27 @@
         <tags>xamarin, android, ios, backgroundservice</tags>
         <dependencies>
             <group targetFramework="netstandard2.0">
-                <dependency id="System.Reactive" version="3.0.0" exclude="Build,Analyzers" />
+                <dependency id="System.Reactive" version="6.0.0" exclude="Build,Analyzers" />
             </group>
             <group targetFramework="MonoAndroid10">
-                <dependency id="System.Reactive" version="3.0.0" exclude="Build,Analyzers" />
+                <dependency id="System.Reactive" version="6.0.0" exclude="Build,Analyzers" />
             </group>
             <group targetFramework="Xamarin.iOS10">
-                <dependency id="System.Reactive" version="3.0.0" exclude="Build,Analyzers" />
-            </group>
-            <group targetFramework="Xamarin.Mac20">
-                <dependency id="System.Reactive" version="3.0.0" exclude="Build,Analyzers" />
+                <dependency id="System.Reactive" version="6.0.0" exclude="Build,Analyzers" />
             </group>
             <group targetFramework="uap">
-                <dependency id="System.Reactive" version="3.0.0" exclude="Build,Analyzers" />
-            </group>
-            <group targetFramework="tizen40">
-                <dependency id="System.Reactive" version="3.0.0" exclude="Build,Analyzers" />
-            </group>
-            <group targetFramework="net46">
-                <dependency id="System.Reactive" version="3.0.0" exclude="Build,Analyzers" />
+                <dependency id="System.Reactive" version="6.0.0" exclude="Build,Analyzers" />
             </group>
         </dependencies>
     </metadata>
     <files> 
         <!--Core-->
-        <file src="..\src\Matcha.BackgroundService\bin\Release\netstandard2.0\Matcha.BackgroundService.*" target="lib\netstandard2.0" />
+        <file src="..\src\Xam.BackgroundService\bin\Release\netstandard2.0\Xam.BackgroundService.*" target="lib\netstandard2.0" />
         <!--Xamarin.Android-->
-        <file src="..\src\Matcha.BackgroundService.Droid\bin\Release\Matcha.BackgroundService.*" target="lib\MonoAndroid10" />
+        <file src="..\src\Xam.BackgroundService.Droid\bin\Release\Xam.BackgroundService.*" target="lib\MonoAndroid10" />
         <!--Xamarin.iOS Unified-->
-        <file src="..\src\Matcha.BackgroundService.iOS\bin\Release\Matcha.BackgroundService.*" target="lib\Xamarin.iOS10" />
-        <!--Xamarin.Mac-->
-        <file src="..\src\Matcha.BackgroundService.Mac\bin\Release\Matcha.BackgroundService.*" target="lib\Xamarin.Mac20" />
+        <file src="..\src\Xam.BackgroundService.iOS\bin\Release\Xam.BackgroundService.*" target="lib\Xamarin.iOS10" />
         <!--UWP-->
-        <file src="..\src\Matcha.BackgroundService.UWP\bin\Release\Matcha.BackgroundService.*" target="lib\UAP10" />
-        <!--Tizen-->
-        <file src="..\src\Matcha.BackgroundService.Tizen\bin\Release\tizen40\Matcha.BackgroundService.*" target="lib\tizen40" />
-        <!--GTK/net46-->
-        <file src="..\src\Matcha.BackgroundService.Gtk\bin\Release\Matcha.BackgroundService.*" target="lib\net46" />
+        <file src="..\src\Xam.BackgroundService.UWP\bin\Release\Xam.BackgroundService.*" target="lib\UAP10" />
     </files>
 </package>
