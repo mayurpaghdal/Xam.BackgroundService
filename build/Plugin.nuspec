@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata minClientVersion="2.8.1">
         <id>Xam.BackgroundService</id>
-        <version>1.0.5465</version>
+        <version>1.0.5555</version>
         <title>A plugin library to simplify Backgrounding in Xamarin.Forms. A Fork from MatchaBackgroundService</title>
         <authors>Mayur Paghdal</authors>
         <owners>Mayur Paghdal</owners>
